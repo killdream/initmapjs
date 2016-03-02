@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Initmapjs by killdream</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Initmapjs</h1>
+        <h2></h2>
+        <a href="https://github.com/killdream/initmapjs" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <p>perl5-porters</p>
+
+<p>This Web page is about the mailing list <a href="mailto:perl5-porters@perl.org">perl5-porters@perl.org</a>. Last modified 19970601-1420 UTC (ISO date format).</p>
+
+<p>Sorry. My testing organization is either too small, or too large, depending on how you look at it. :-)
+--Larry Wall in &lt;<a href="mailto:1991Apr22.175438.8564@jpl-devvax.jpl.nasa.gov">1991Apr22.175438.8564@jpl-devvax.jpl.nasa.gov</a>&gt;
+What the list is NOT about?
+What the list is about?
+The current UNIX platforms
+The current other platforms
+The current other platforms not included in the standard (source) distribution (and thus not really part of the perl5-porters project)
+Dramatis Personae (not really maintained anymore)
+It's all magic. :-)
+--Larry Wall in &lt;<a href="mailto:7282@jpl-devvax.JPL.NASA.GOV">7282@jpl-devvax.JPL.NASA.GOV</a>&gt;
+What the list is not about?</p>
+
+<p><strong>It is not about</strong>
+asking about CGI problems -- and neither is any USENET comp.lang.perl.* newsgroup. 99% of the time your CGI problem has nothing to do with Perl in the first place and of the remaining 1% only 1% has something to do with Perl porting -- which is the purpose of this list.
+There is one USENET newsgroup that is for asking about CGI problems: comp.infosystems.www.authoring.cgi -- but please refrain yourself from sending your question there
+asking about Perl programming -- after consulting all the FAQs and possibly consulting the O'Reilly Perl books and asking your colleagues and friends and thinking about the problem by yourself, then you might ask your question in the USENET comp.lang.perl.misc newsgroup.
+Please ascertain that your question is not already answered by the FAQs, you'll just waste oodles of net bandwidth, megabytes of disk space all around the world, and hours of thousands of people's time. No, I am not kidding or exaggerating. That is how much a USENET article 'costs' -- do not post a USENET article in vain.</p>
+
+<p>Please always use asking in the USENET groups as the very, VERY, last resort. Always try to sort out the problem by yourself -- that way you'll learn how to solve more and more problems, all by yourself. Try these. No, FAQ is not something rude, they are there to help you. Read them. Read them again. Most of the time they solve your problem and you learn a lot more about many other things on the side.</p>
+
+<p><strong>FAQs</strong></p>
+
+<h2>
+<a id="cgi-in-particular" class="anchor" href="#cgi-in-particular" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CGI in Particular</h2>
+
+<p>The following FAQs tell about CGI in Particular
+The Idiot's Guide to Solving Perl/CGI Problems.
+Do not huff at the name because truly that 'I' word may well mean you.
+Perl CGI FAQ
+CGI FAQ
+CGI Security FAQ
+Perl in General</p>
+
+<p>The following FAQs tell about Perl in General
+The Perl AutoFAQ
+Perl FAQ
+Perl 4 to 5 Traps for the Unwary
+What the list is about?</p>
+
+<p><strong>perl5-porters is a motley crew doing:</strong>
+porting perl5 to as many architectures as possible
+<strong>porting:</strong>
+100% clean compile + 120% clean 'make test'
+<strong>as possible:</strong>
+currently mainly the various UNIX variants and systems which support the POSIX interface but we certainly would not object to the Amiga, Atari, LynxOS, MPE, MS-DOS, MVS, Netware, (for example) people joining us.
+The clean porting to the various platforms requires quite a lot rethinking of the Perl code to clearly separate the UNIX-scpecific parts from of the pure Perl "core".
+planning, implementing, and testing, the various APIs both for the innards of Perl 5 and to the external world, both for extensions and for modules.
+If you have some/lots-of spare time either to hack perl 5 code or just to test-compile new releases and patches, jump in.</p>
+
+<h2>
+<a id="current-unix-platforms" class="anchor" href="#current-unix-platforms" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Current UNIX Platforms</h2>
+
+<p>The current UNIX porters cover (at least), only major versions listed:
+AIX 3, 4
+BSD/386 1
+ConvexOS 10
+HPUX 9, 10
+Digital UNIX / DEC OSF/1 1, 2, 3, 4
+DG/UX 5
+Linux 1, 2
+IRIX 4, 5, 6
+Interactive 3
+MachTen 2, 4
+NextStep 3
+SCO 3
+SunOS 4, 5
+Ultrix 4
+UNICOS 6, 7, 8, 9
+Current Other Platforms</p>
+
+<p>The following non-UNIXy ports are included in the standard (source) distribution
+Amiga
+Mac
+OS/2 (note that the OS/2 binary works on MS-DOS (&gt;=386), Win31, Win95, and WinNT (with some restrictions), last three require RSX extenders.
+QNX
+Plan 9
+VMS
+Win/NT (note: supposed to work for Win95 too)
+Current Other Platforms not included in the standard distribution</p>
+
+<p>The following non-UNIXy ports are in progress/ready but not included in the standard (source) distribution
+Acorn RISC OS
+BeOS
+If you happen to have an OS not mentioned above and you feel like you need Perl, send email to <a href="mailto:perl5-porters-request@perl.org">perl5-porters-request@perl.org</a> with the word subscribe in the message body (not the subject).</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/killdream/initmapjs/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/killdream/initmapjs/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/killdream/initmapjs"></a> is maintained by <a href="https://github.com/killdream">killdream</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
